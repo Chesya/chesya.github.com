@@ -1,0 +1,127 @@
+/* BODY ---------------------------------------------------------*/
+
+	body {
+
+
+	}
+
+	hr {
+		border: none;
+		border-bottom: 1px solid #5C6065;
+	}
+
+	abbr, acronym {
+		border-bottom: 1px dotted #666666;
+	}
+
+	ins, dfn {
+		border-bottom: 1px solid #666666;
+	}
+
+	code {
+		border: 1px dotted #CCC;
+		background: #EFEFEF;
+	}
+
+	blockquote, quote {
+		background: url(../images/quote_dark_bg.png) 40px 5px no-repeat;
+		min-height: 45px;
+		color: #666b71;
+	}
+
+	#main a {
+		border-bottom: 0px solid #999da1;
+	}
+
+	a:link,
+	a:visited,
+	a:hover,
+	a:focus,
+	a:active {
+		font-size: 26px;
+		color: #565656 ;
+		text-decoration: none;
+	}
+
+	a:hover,
+	a:focus {
+		color:rgb(0, 0, 0);
+	}
+	#id4 a{
+
+		color: rgba(0,0,0,0);
+	}
+	#id4 a:hover{
+		color: white;
+	}
+
+	ul.socialLinks li a span.facebook {
+		background-position: -439px -78px;
+	}
+
+	ul.socialLinks li a span.twitter {
+		background-position: -199px -78px;
+	}
+
+	ul.socialLinks li a span.rss {
+		background-position: -560px -78px;
+	}
+
+	ul.socialLinks li a span.email {
+		background-position: -199px -319px;
+	}
+
+
+	h1, h2, h3, h4 {
+		font-weight:normal;
+	}
+
+	h2 {
+		/*background: url(../images/h2_dark_bg.png) 0 100% repeat-x;*/
+		text-align: center;
+		padding-top: 3%;
+		font-weight: bold;
+		font-family: 'Space Mono', monospace;
+		font-size: 44px;
+		color: rgba(64, 95, 119, 0.88);
+		text-shadow: 0px 0px 1px rgba(151, 159, 165, 0.61);
+	}
+	#two h2{
+		font-size: 71px;
+		text-align: right;
+		margin-right: 12%;
+		font-weight: bold;
+		color: rgba(37, 97, 142, 0.68);
+		text-shadow: 5px 5px 1px rgba(146, 152, 156, 0.32)
+	}
+
+	#title a {
+		color: rgba(1, 47, 80, 0.58);
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 100px;
+	}
+
+
+	#main a.gallery {
+		border-bottom: none;
+	}
+
+
+	form input[type=text],
+	form textarea {
+		border: 0px solid rgba(255, 255, 255, 0.17);
+box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+color: #666666;
+background-color: rgba(255, 255, 255, 0.17);
+	}
+
+	form button {
+		background: #CC0000;
+		color: #FFF;
+	}
+
+	form button:hover,
+	form button:focus {
+		background: #000;
+	}
