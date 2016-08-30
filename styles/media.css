@@ -1,0 +1,192 @@
+
+@media only screen
+and (min-width:220px)
+and (max-width:745px)
+{
+
+  #header{
+    width: 100%;
+    min-height:100vh;
+    background: url(../images/temp/kit22.png) 68% 0% rgba(219, 216, 213, 0.37);
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  .camera{
+    display: none;
+  }
+  #title {
+
+    width: 70%;
+    height: 20vh;
+    min-height: 20vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5vh;
+    font-size: 1em;
+    line-height: 0.4em;
+  }
+  #title a{
+    animation-name: bounce;
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  .photostory{
+    width: 70%;
+    height: auto;
+    min-height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5vh;
+    font-size: 1em;
+    line-height: 2em;
+    overflow: auto;
+    animation-name: bounceInUp;
+  }
+   header #scroll{
+    clear: both;
+    margin: auto;
+    width: 50px;
+    height: 45px;
+  }
+  header .scroll:hover{
+    transform: scale(1.2);
+  }
+  #about{
+    min-height: 100vh;
+    margin-bottom: 1vh;
+    height: auto;
+    background: rgba(88, 81, 78, 0.0);
+
+  }
+  #about .colreg{
+    width: 100%;
+
+  }
+  #about .col{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    min-height: 20vh;
+    height: auto;
+    font-size: 1em;
+  }
+  #about .col h3{
+    font-size: 1em;
+  }
+  #about h2{
+    font-size: 1em;
+  }
+  #about #scroll .scroll{
+    display: none;
+  }
+
+  #photostory{
+    min-height: 100vh;
+    height: auto;
+    background: rgba(88, 81, 78, 0.0);
+  }
+  #photostory #main{
+    width:95%;
+  }
+  #photostory h2{
+    font-size: 1em;
+  }
+  #photostory #id4{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3vh;
+    height: auto;
+  }
+  #id4 a{
+    color: rgba(255, 255, 255, 0.82);
+    opacity: 1.0;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: -2px 2px 2px #383d3e;
+  }
+  #id4 a:hover {
+    font-size: 26px;
+    transition:   280ms ease-in;
+    transform: scale(1);
+  }
+  #id4 a:active{
+    opacity: 0.8;
+    transition:   280ms ease-in;
+    transform: scale(0.7);
+  }
+  .boxphoto{
+    line-height: 30vh;
+  }
+  #photostory #scroll .scroll{
+    display: none;
+  }
+  #footer{
+    clear: both;
+    height: auto;
+    min-height: 100vh;
+  }
+  footer h2{
+    font-size: 1em;
+    text-align: center;
+    width: 100%
+  }
+  footer .mainCol{
+    display:none;
+  }
+    footer .number{
+      width: 60%;
+      margin-left: 10%;
+      font-size: 1em;
+      text-align: center;
+    }
+      footer .copyright{
+        width: 85%;
+        margin-left: -15%;
+      }
+      footer .copyright .logo{
+        width: 200px;
+        height: 113px;
+        background: url(../images/logo.png);
+        opacity: 1.0;
+        background-size: cover;
+      }
+      footer .columns{
+        width: 100%;
+        margin: auto;
+        clear: both;
+      }
+      .columns .and {
+        width: 100%;
+      }
+      .columns .and1{
+        float: left;
+        width: 9%;
+        margin: 0% 5% 0% 5%;
+      }
+      .columns .and1 a{
+        height: 2em;
+        width: 2em;
+      }
+      .columns .and1 .youtube{
+        background: url(../images/icons/youtube1.png);
+        background-size:cover;
+      }
+      .columns .and1 .facebook{
+        background: url(../images/icons/instagram.png);
+        background-size:cover;
+      }
+      .columns .and1 .email{
+        background: url(../images/icons/skype.png);
+        background-size:cover;
+      }
+      .columns .and1 .rss{
+        background: url(../images/icons/vk.png);
+        background-size:cover;
+      }
+      .columns .and1 .twitter{
+        background: url(../images/icons/twitter.png);
+        background-size:cover;
+      }
+}
