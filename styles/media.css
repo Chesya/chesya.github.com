@@ -125,6 +125,7 @@ and (max-width:745px)
     clear: both;
     height: auto;
     min-height: auto;
+    padding-bottom: 50px;
   }
   footer h2{
     font-size: 25px;
@@ -147,6 +148,7 @@ and (max-width:745px)
       footer .copyright{
         width: 80%;
         margin-bottom: 20px;
+        margin-top: 50px;
       }
       footer .copyright .logo{
         width: 188px;
@@ -159,9 +161,11 @@ and (max-width:745px)
         width: 100%;
         margin: auto;
         clear: both;
+            padding-top: 20px;
       }
       footer #main{
         width: 100%;
+            margin-top: 28px;
       }
       .columns .and {
         width: 100%;
