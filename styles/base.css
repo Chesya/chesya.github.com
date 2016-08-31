@@ -3,8 +3,6 @@
 	body {
 		overflow-y: scroll;
 		overflow-x: hidden;
-		font:16px/19px 'Poiret One', cursive;
-
 	}
 	#id4{
 		float:left;
@@ -100,6 +98,7 @@
 		 width: 45%;
 		 text-align: -webkit-right;
      margin-top: 3%;
+		 animation-name:none; 
 	 }
 	 .copyright{
 			width: 45%;
