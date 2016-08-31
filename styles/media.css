@@ -93,8 +93,8 @@ and (max-width:745px)
     font-size: 25px;
   }
   #photostory #id4{
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 15px;
     height: auto;
   }
@@ -115,8 +115,9 @@ and (max-width:745px)
     transition:   280ms ease-in;
     transform: scale(0.7);
   }
-  .boxphoto{
-    line-height: 30vh;
+  #id4 .boxphoto{
+    width: 100%;
+    line-height: 140px;
   }
   #photostory #scroll .scroll{
     display: none;
