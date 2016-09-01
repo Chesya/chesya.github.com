@@ -129,16 +129,14 @@
 		 color: rgba(21, 21, 35, 0.85);
 		 margin-left: 1%;
 		 font-weight: 400;
-		 font-style: italic;
 		 padding: 1% 0 1% 1%;
 		 font-size: 2vw;
-     letter-spacing: 4px;
      width: 80%;
      line-height: 3vw;
 	 }
 	 .photostory .first{
 		 font-weight: bold;
-		 font-style: normal; 
+		 font-style: normal;
 	 }
 	 .hidden-menu {
 		  display: block;
