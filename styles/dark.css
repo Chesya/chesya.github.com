@@ -39,7 +39,7 @@
 	a:focus,
 	a:active {
 		font-size: 26px;
-		color: #565656 ;
+    color: #efefef;
 		text-decoration: none;
 	}
 
