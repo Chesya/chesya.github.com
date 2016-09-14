@@ -129,6 +129,7 @@ and (max-width:745px)
   }
   #id4 .boxphoto{
     width: 100%;
+    height: auto;
     line-height: 140px;
   }
   #photostory #scroll .scroll{
@@ -234,5 +235,6 @@ and (max-width:745px)
       }
       footer .dno h2{
         color: white;
+            display: block;
       }
 }
