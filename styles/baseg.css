@@ -5,6 +5,7 @@
 		overflow-x: hidden;
 	}
 	#id4{
+		position: relative;
 		float:left;
 		display: block;
 		width: 42%;
@@ -19,7 +20,6 @@
 		text-align: center;
 		line-height: 145px;
 		font-size:  22px;
-		opacity: 0.8;
 	}
 	.yro {
 		background : url(../images/temp/yro/yro7m.jpg);
@@ -255,12 +255,31 @@
 	#toTop:hover{
 		opacity: 1.0;
 	}
-	#id4 a:hover .boxphoto{
-		opacity: 1.0;
-		transition:   280ms ease-in;
-		transform: scale(1.05);
+
+
+	#id4 .img{
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(230, 227, 227, 0.7);
+		width: 100%;
+		height: 22vw;
 	}
-	#id4 .boxphoto{
+	#id4 .img .plus{
+		width:55px;
+		height:55px;
+		background: url(../images/home.png);
+		background-size: cover;
+		margin-top: 9vw;
+	}
+	#id4:hover .img{
+		width: 100%;
+		height: 22vw;
+		opacity: 1.0;
+		transition:   180ms ease-in;
+	}
+	#id4 .img{
 		-moz-transition: all 280ms ease-out;
 		-o-transition: all 280ms ease-out;
 		-webkit-transition: all 280ms ease-out
@@ -269,7 +288,7 @@
 /* GRID ---------------------------------------------------------*/
 
 	footer {
-	    background: rgb(44, 6, 68) url(../images/temp/newf.png) 0% 100%;
+	    background: rgb(0, 0, 0) url(../images/temp/newf.png) 0% 100%;
 		background-size: cover;
 		background-attachment: fixed;
 		height: auto;
