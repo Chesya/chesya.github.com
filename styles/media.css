@@ -80,7 +80,7 @@ and (max-width:745px)
     width: 80%;
     min-height: auto;
     height: auto;
-    font-size: 13px;
+    font-size: 16px;
     animation-name: bounceInUp;
   }
   #about .col h3{
