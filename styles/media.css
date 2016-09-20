@@ -210,8 +210,8 @@ and (max-width:745px)
         margin: 0;
       }
       .columns .and1 a{
-        height: 2em;
-            width: 2em;
+        height: 3em;
+            width: 3em;
             margin-top: 27px;
       }
       .columns .and1 a:focus{
