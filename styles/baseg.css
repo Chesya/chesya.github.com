@@ -9,18 +9,16 @@
 		float:left;
 		display: block;
 		width: 42%;
-		margin: 1% 4% 1% 4%;
+		margin: 2% 4%;
 		text-align: -webkit-center;
 		text-align: -moz-center;
 	}
 	.boxphoto{
 		display: block;
-		width: 100%;
-		height: 22vw;
-		box-shadow:  0px 0px 10px 2px rgba(0,0,0,0.3);
-		text-align: center;
-		line-height: 145px;
-		font-size:  22px;
+    width: 100%;
+    height: 19vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.49);
+    text-align: center;
 	}
 	.yro {
 		background : url(../images/temp/yro/yro7m.jpg);
@@ -86,12 +84,12 @@
 	 }
 	 .camerafoto{
 		 opacity: 0.5;
-		 display: block;
-		 width: 130px;
-		 margin: auto;
-		 height: 120px;
-		 background: url(../images/camera.png);
-		 background-size: cover;
+     display: block;
+     width: 100px;
+     margin: auto;
+     height: 100px;
+     background: url(../images/camera.png);
+     background-size: cover;
 	 }
 	 .number{
 		 font-size: 30px;
@@ -265,25 +263,22 @@
 		left: 0;
 		background: rgba(230, 227, 227, 0.7);
 		width: 100%;
-		height: 22vw;
+		height: 19vw;
 	}
 	#id4 .img .plus{
 		width:55px;
 		height:55px;
 		background: url(../images/home.png);
 		background-size: cover;
-		margin-top: 9vw;
+		margin-top: 7vw;
 	}
 	#id4:hover .img{
-		width: 100%;
-		height: 22vw;
 		opacity: 1.0;
-		transition:   180ms ease-in;
 	}
 	#id4 .img{
 		-moz-transition: all 280ms ease-out;
 		-o-transition: all 280ms ease-out;
-		-webkit-transition: all 280ms ease-out
+		-webkit-transition: all 480ms ease-out
 	}
 
 /* GRID ---------------------------------------------------------*/
@@ -314,7 +309,7 @@
 
 	#main {
 		position: relative;
-	  width: 80%;
+	  width: 70%;
 	  margin: auto;
 		padding-top: 2%;
 	}
@@ -437,14 +432,12 @@
 		float: left;
     width: 60%;
     text-align: center;
-    font-size: 38px;
-    line-height: 74px;
     margin: 2% 0 0 0;
 	}
 
 	#title a {
 		text-decoration: none;
-		font-weight: bold;
+		font-weight:normal;
 		font-size: 40px;
 	}
 

@@ -70,14 +70,12 @@
     padding-top: 3%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 44px;
+    font-size: 3em;
     color: rgb(30, 62, 78);
 
 	}
 	footer h2{
-		font-size: 71px;
-		text-align: center;;
-		font-weight: bold;
+		font-size: 4em;
 		color: rgb(220, 226, 230);
 		text-shadow: 5px 5px 1px rgba(146, 152, 156, 0.32)
 	}
