@@ -181,7 +181,6 @@ and (max-width:745px)
     }
       footer .copyright{
         width: 88%;
-        margin-bottom: 20px;
         margin-top: 54px;
       }
       footer .copyright .logo{

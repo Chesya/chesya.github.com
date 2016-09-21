@@ -56,19 +56,19 @@
 		background-size:cover;
 	}
 	.tru {
-		background : url(../images/temp/tru/tru5m.jpg);
+		background : url(../images/temp/tru/tru4m.jpg);
 		background-size:cover;
 	}
 	.bez {
-		background : url(../images/temp/bez/bez6m.jpg);
+		background : url(../images/temp/bez/bez5m.jpg);
 		background-size:cover;
 	}
 	.suh {
-		background : url(../images/temp/suh/suh1m.jpg);
+		background : url(../images/temp/suh/suh10m.jpg);
 		background-size:cover;
 	}
 	.zaec {
-		background : url(../images/temp/zaec/zaec6m.jpg);
+		background : url(../images/temp/zaec/zaec5m.jpg);
 		background-size:cover;
 	}
 	.dg {
@@ -84,11 +84,11 @@
 		background-size:cover;
 	}
 	.an {
-		background : url(../images/temp/an/an5m.jpg);
+		background : url(../images/temp/an/an7m.jpg);
 		background-size:cover;
 	}
 	.df {
-		background : url(../images/temp/df/df14m.jpg);
+		background : url(../images/temp/df/df11m.jpg);
 		background-size:cover;
 	}
 	.tr {
@@ -96,7 +96,7 @@
 		background-size:cover;
 	}
 	.ch{
-		background : url(../images/temp/ch/ch7m.jpg);
+		background : url(../images/temp/ch/ch3m.jpg);
 	}
 	 .logo{
      width: 275px;
@@ -158,12 +158,11 @@
 	 }
 	 .photostory{
 		 float: left;
-		 color: rgba(21, 21, 35, 0.85);
-		 margin-left: 1%;
-		 font-weight: bold;
-		 font-family: 'Roboto',monospace;
-		 padding: 1% 0 1% 1%;
-		 font-size: 2vw;
+     color: rgb(0, 0, 0);
+     margin-left: 1%;
+     font-family: 'Open Sans', sans-serif;
+     padding: 1% 0 1% 1%;
+     font-size: 2vw;
      width: 80%;
      line-height: 3vw;
 	 }
@@ -345,7 +344,7 @@
 		margin: 0 auto;
 	}
 	#about .col {
-		font-family: 'Roboto',monospace;
+		font-family: 'Open Sans', sans-serif;
     text-align: left;
     width: 94%;
     float: left;
@@ -363,9 +362,10 @@
 
 	#about .col h3{
 		color: rgba(66, 66, 66, 1);
-		font-size: 34px;
+		font-size: 28px;
 		line-height: normal;
 		text-align: left;
+		margin-bottom: 2%;
 	}
 	#about .red{
     border-left: 2px solid rgba(234, 239, 47, 0.88);
@@ -466,9 +466,7 @@
 
 /* HEADINGS ---------------------------------------------------------*/
 
-	h1, h2, h3 {
 
-	}
 
 	h1 {
 		font-size: 38px;
