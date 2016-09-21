@@ -78,9 +78,8 @@ and (max-width:745px)
 
   }
   #about .col{
-    margin-left: 8%;
-    margin-right: 10%;
-    margin-top: 17px;
+    margin-left: 10%;
+    margin-top: 10%;
     width: 80%;
     min-height: auto;
     height: auto;
@@ -169,20 +168,20 @@ and (max-width:745px)
   }
     footer .number{
       width: 100%;
-      font-size: 24px;
+      font-size: 23px;
       line-height: 47px;
       font-weight: bold;
-      color: rgba(255, 255, 255, 0.74);
+      color: rgba(255, 255, 255, 0.82);
       z-index: 99;
       text-align: center;
-      background: rgba(205, 210, 224, 0.15);
-      border: 1px solid rgba(47, 46, 46, 0.73);
-      box-shadow: -8px 8px 0px rgba(215, 218, 226, 0.22);
+      background: rgba(66, 66, 66, 0.27);
+      border: 1px solid rgba(53, 53, 53, 0.73);
       animation-name: flipInX;
+      font-family: 'open sans',monospace;
     }
       footer .copyright{
-        width: 88%;
-        margin-top: 54px;
+        width: 65%;
+        margin-top: 35px;
       }
       footer .copyright .logo{
         width: 188px;
